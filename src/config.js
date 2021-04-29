@@ -2,7 +2,7 @@ const dev = {
     STRIPE_KEY: "pk_test_51IkfIqKEKi30yFz1lYpVS63DIc0eEN2wWjELtv3DO3QdBqfCiJskXq6sSopwBd251TT05HE7HbVml9Qyd8zhxHUo00rzp6kgyr",
     s3: {
         REGION: "us-east-1",
-        BUCKET: "notes-api-dev-serverlessdeploymentbucket-48gbgg0afzr8"
+        BUCKET: "dev-notes-infra-s3-uploads4f6eb0fd-1bnz21r39zd3d"
     },
     apiGateway: {
         REGION: "us-east-1",
@@ -20,7 +20,7 @@ const prod = {
     STRIPE_KEY: "pk_test_51IkfIqKEKi30yFz1lYpVS63DIc0eEN2wWjELtv3DO3QdBqfCiJskXq6sSopwBd251TT05HE7HbVml9Qyd8zhxHUo00rzp6kgyr",
     s3: {
         REGION: "us-east-1",
-        BUCKET: "notes-api-prod-serverlessdeploymentbucket-dt76v34mqmrs"
+        BUCKET: "prod-notes-infra-s3-uploads4f6eb0fd-necwse7l4409"
     },
     apiGateway: {
         REGION: "us-east-1",
